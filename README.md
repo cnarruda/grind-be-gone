@@ -6,7 +6,7 @@ New wish: type 'reroll' (without the single quotes) to reroll most boring stuff 
 
 Gave some new cool items to our friend Tam the Dromad Merchant.
 
-Increased to 100% the chance to get Ego absorbtion from killing the Esper hunters.
+Increased to 100% the chance to get Ego absorption from killing the Esper hunters.
 
 
 # *Installation* 
