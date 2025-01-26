@@ -1,0 +1,9 @@
+{
+    "id": "grind-be-gone",
+    "title": "Grind be Gone",
+    "description": "Just some tunings to help ease the grind (and expedite your way to godhood).\nNew wish: type 'reroll' (without the single quotes) to reroll most boring stuff like brain brine and eater's nectar result.\nGave some new cool items to our friend Tam the Dromad Merchant.\nIncreased to 100% the chance to get Ego absorbtion from killing the Esper hunters.",
+    "version": "0.1.0",
+    "author": "cnarruda",
+    "tags": "Scripting",
+    "PreviewImage": "preview.png"
+}
