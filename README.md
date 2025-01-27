@@ -2,12 +2,13 @@
 
 Just some tunings to help ease the grind (and expedite your way to godhood).
 
-New wish: type 'reroll' (without the single quotes) to reroll most boring stuff like brain brine and eater's nectar result.
+- New wish: type 'reroll' (without the single quotes) to reroll most boring stuff like brain brine and eater's nectar result.
 
-Gave some new cool items to our friend Tam the Dromad Merchant.
+- Gave some new cool items to our friend Tam the Dromad Merchant
 
-Increased to 100% the chance to get Ego absorption from killing the Esper hunters.
+- Increased to 100% the chance to absorb Ego when killing the Esper hunters.
 
+- Added option to choose outcome of Brain Brine consumption.
 
 # *Installation* 
 
