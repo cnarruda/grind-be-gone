@@ -2,13 +2,15 @@
 
 Just some tunings to help ease the grind (and expedite your way to godhood).
 
-- New wish: type 'reroll' (without the single quotes) to reroll most boring stuff like brain brine and eater's nectar result.
+- New wish: type 'reroll' (without the single quotes) to execute the XRL.World.GameObject.PermuteRandomMutationBuys() method (reset seed to mutations, brain brine, eaters' nectar and drop of nectar).
 
-- Gave some new cool items to our friend Tam the Dromad Merchant
+- Gave some guaranteed items to Tam, dromad merchant (every trade interaction gives them).
 
 - Increased to 100% the chance to absorb Ego when killing the Esper hunters.
 
 - Added option to choose outcome of Brain Brine consumption.
+
+- Added option to choose outcome when aplying Eaters' nectar injector.
 
 # *Installation* 
 
