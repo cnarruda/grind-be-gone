@@ -1,8 +1,8 @@
 {
     "id": "grind-be-gone",
     "title": "Grind be Gone",
-    "description": "Just some tunings to help ease the grind (and expedite your way to godhood).\n - New wish: type 'reroll' (without the single quotes) to reroll most boring stuff like brain brine and eater's nectar result.\n - Gave some new cool items to our friend Tam the Dromad Merchant.\n - Increased to 100% the chance to absorb Ego when killing the Esper hunters.\n - Added option to choose outcome of Brain Brine consumption.",
-    "version": "0.2.0",
+    "description": "Just some tunings to help ease the grind (and expedite your way to godhood).\n - New wish: type 'reroll' (without the single quotes) to execute the XRL.World.GameObject.PermuteRandomMutationBuys() method (reset seed to mutations, brain brine, eaters' nectar and drop of nectar).\n - Gave some guaranteed items to Tam, dromad merchant (every trade interaction gives them).\n - Increased to 100% the chance to absorb Ego when killing the Esper hunters.\n - Added option to choose outcome of Brain Brine consumption.\n - Added option to choose outcome when aplying Eaters' nectar injector.",
+    "version": "0.3.0",
     "author": "cnarruda",
     "tags": "Scripting",
     "PreviewImage": "preview.png"

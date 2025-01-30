@@ -28,7 +28,7 @@ class BrainBrineChoice
         list1.Add("+mutation");
         list2.Add('h');
         list1.Add("-mutation");
-        int num = XRL.UI.Popup.PickOption("Choose the outcome of Brain Brine (or let fate take it's course...)", null, "", "Sounds/UI/ui_notification", list1.ToArray(), list2.ToArray(), null, null, null, null, null, 0, 60, 0, -1, AllowEscape: true);
+        int num = XRL.UI.Popup.PickOption("Choose the outcome of Brain Brine (or cancel to randomize)", null, "", "Sounds/UI/ui_notification", list1.ToArray(), list2.ToArray(), null, null, null, null, null, 0, 60, 0, -1, AllowEscape: true);
         if (num < 0)
         {
             //fate accepted
