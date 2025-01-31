@@ -2,9 +2,9 @@ using static XRL.Extensions;
 
 [HarmonyLib.HarmonyPatch(typeof(XRL.World.Parts.Nectar_Tonic_Applicator))]
 [HarmonyLib.HarmonyPatch(nameof(XRL.World.Parts.Nectar_Tonic_Applicator.FireEvent))]
-class NectarTonicApplicatorChoice
+class NectarTonicApplicatorChoice : XRL.World.IPart
 {
-    static bool Prefix(XRL.World.Event E, XRL.World.Parts.Nectar_Tonic_Applicator __instance/*, bool __resultRef*/)
+    static bool Prefix(XRL.World.Event E, XRL.World.Parts.Nectar_Tonic_Applicator __instance)
     {
         if (E.ID == "ApplyTonic")
         {
@@ -59,7 +59,7 @@ class NectarTonicApplicatorChoice
                         text = text + "{{C|You gain " + intParameter.Things("attribute point") + "!}}";
                     }
                 }
-                else if (!"MP".Equals(choice) && 50.in100())
+                else if (choice == null && 50.in100())
                 {
                     int num = XRL.Rules.Stat.Random(1, 6);
                     string text2 = "Strength";
@@ -87,20 +87,32 @@ class NectarTonicApplicatorChoice
                     {
                         text2 = "Toughness";
                     }
-                    if (choice != null)
-                    {
-                        text2 = choice;
-                    }
                     if (gameObjectParameter.HasStat(text2))
                     {
                         gameObjectParameter.GetStat(text2).BaseValue += intParameter;
                         text = text + "{{C|You gain " + intParameter.Things("point") + " of " + text2 + "!}}";
                     }
                 }
-                else if (gameObjectParameter.HasStat("MP"))
+                else if (choice == null && gameObjectParameter.HasStat("MP"))
                 {
                     gameObjectParameter.GainMP(intParameter);
                     text = text + "{{C|You gain " + intParameter.Things("mutation point") + "!}}";
+                }
+                else if (choice != null)
+                {
+                    if (gameObjectParameter.HasStat(choice))
+                    {
+                        if ("MP".Equals(choice))
+                        {
+                            gameObjectParameter.GainMP(intParameter);
+                            text = text + "{{C|You gain " + intParameter.Things("mutation point") + "!}}";
+                        }
+                        else
+                        {
+                            gameObjectParameter.GetStat(choice).BaseValue += intParameter;
+                            text = text + "{{C|You gain " + intParameter.Things("point") + " of " + choice + "!}}";
+                        }
+                    }
                 }
                 if (gameObjectParameter.IsPlayer())
                 {
@@ -114,7 +126,6 @@ class NectarTonicApplicatorChoice
                 }
             }
         }
-        //__resultRef = true;
         return false;
     }
 }
