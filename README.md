@@ -10,7 +10,7 @@ Just some tunings to help ease the grind (and expedite your way to godhood).
 
 - Added option to choose outcome of Brain Brine consumption.
 
-- Added option to choose outcome when aplying Eaters' nectar injector.
+- When buying mutations, shows the entire list of possible mutations available to the character.
 
 # *Installation* 
 
