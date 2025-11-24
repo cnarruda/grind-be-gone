@@ -5,7 +5,7 @@ class GiveTamSomeItems
                        float _costMultiple = 1f,
                        XRL.UI.TradeUI.TradeScreenMode screenMode = XRL.UI.TradeUI.TradeScreenMode.Trade)
     {
-        if ("Tam, dromad merchant".Contains(Trader.DisplayName))
+        if ("Tam".Contains(Trader.BaseDisplayName))
         {
             XRL.World.Parts.Inventory inventory = Trader.Inventory;
             System.Collections.Generic.List<XRL.World.GameObject> objs = new System.Collections.Generic.List<XRL.World.GameObject>();

@@ -6,7 +6,8 @@ class NectarTonicApplicatorChoice : XRL.World.IPart
 {
     static bool Prefix(XRL.World.Event E, XRL.World.Parts.Nectar_Tonic_Applicator __instance)
     {
-        if (E.ID == "ApplyTonic")
+        E.ID = "ApplyTonic2";
+        if (E.ID == "ApplyTonic2")
         {
             int intParameter = E.GetIntParameter("Dosage");
             XRL.World.GameObject gameObjectParameter = E.GetGameObjectParameter("Subject");
@@ -126,6 +127,6 @@ class NectarTonicApplicatorChoice : XRL.World.IPart
                 }
             }
         }
-        return false;
+        return true;
     }
 }
