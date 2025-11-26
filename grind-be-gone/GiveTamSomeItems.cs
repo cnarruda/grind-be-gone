@@ -9,6 +9,11 @@ class GiveTamSomeItems
         {
             XRL.World.Parts.Inventory inventory = Trader.Inventory;
             System.Collections.Generic.List<XRL.World.GameObject> objs = new System.Collections.Generic.List<XRL.World.GameObject>();
+            if (!inventory.HasObject("DataDisk"))
+            {
+              XRL.World.GameObject modJaked = XRL.World.Tinkering.TinkerData.createDataDisk("mod:ModJacked");
+              objs.Add(modJaked);
+            }
             if (!inventory.HasObject("Metamorphic Polygel"))
             {
                 objs.Add(XRL.World.GameObject.Create("Metamorphic Polygel"));
