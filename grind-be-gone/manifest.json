@@ -1,8 +1,8 @@
 {
     "id": "grind-be-gone",
     "title": "Grind be Gone",
-    "description": "Just some tunings to help ease the grind.\n - New wish: type 'reroll' (without the single quotes) to reset the seed to mutations, Brain Brine, Eaters' Nectar injector and Drop of Nectar.\n - Gave some guaranteed items to Tam, dromad merchant (every trade interaction gives them).\n - Increased to 100% the chance to absorb Ego when killing the Esper hunters.\n - Added option to choose outcome when using Brain Brine and Eaters' nectar injector.\n - When buying mutations, shows the entire list of possible mutations available to the character.\n - Made possible to change Z level result behaviour of Space Time Vortexes via the mod file 'BetterZLevelTeleportation.cs'. To do so, manipulate the 'statRandomLow' and 'statRandomHigh' variables (default values are set).",
-    "version": "0.5.0",
+    "description": "Just some tunings to help ease the grind.\n - New wish: type 'reroll' (without the single quotes) to reset the seed to mutations, Brain Brine, Eaters' Nectar injector and Drop of Nectar.\n - Gave some guaranteed items to Tam, dromad merchant (every trade interaction gives them).\n - Increased to 100% the chance to absorb Ego when killing the Esper hunters.\n - Added option to choose outcome when using Brain Brine and Eaters' nectar injector.\n - Always get the Drop of Nectar cooking bonus.\n - When buying mutations, shows the entire list of possible mutations available to the character.\n - Made possible to change Z level result behaviour of Space Time Vortexes via the mod file 'BetterZLevelTeleportation.cs' by manipulating the 'statRandomLow' and 'statRandomHigh' variables (default values are set).",
+    "version": "0.6.0",
     "author": "cnarruda",
     "tags": "Scripting",
     "PreviewImage": "preview.png"
