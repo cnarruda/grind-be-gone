@@ -10,9 +10,11 @@ Just some tunings to help ease the grind.
 
 - Added option to choose outcome when using Brain Brine and Eaters' nectar injector.
 
+- Always get the Drop of Nectar cooking bonus.
+
 - When buying mutations, shows the entire list of possible mutations available to the character.
 
-- Made possible to change Z level result behaviour of Space Time Vortexes via the mod file 'BetterZLevelTeleportation.cs'. To do so, manipulate the 'statRandomLow' and 'statRandomHigh' variables (default values are set).
+- Made possible to change Z level result behaviour of Space Time Vortexes via the mod file 'BetterZLevelTeleportation.cs' by manipulating the 'statRandomLow' and 'statRandomHigh' variables (default values are set).
 
 # *Installation* 
 
